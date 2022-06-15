@@ -1,0 +1,38 @@
+
+// variables
+$primary-color: #354E57;
+$teritary-color : #FFFFFF;
+$body-background: #EEF3F4;
+$teaser-bg: #F7F7F7;
+
+// padding variables
+$padding-lv-1: 5px;
+$padding-lv-2: 10px;
+$padding-lv-3: 15px;
+$padding-lv-4: 20px;
+$padding-lv-5: 25px;
+
+// margin variables
+
+$margin-lv-1: 5px;
+$margin-lv-2: 10px;
+$margin-lv-3: 15px;
+$margin-lv-4: 20px;
+$margin-lv-5: 25px;
+
+// mixins
+
+@mixin flex-properties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@mixin teaser-align {
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    display: flex !important;
+}
